@@ -2,17 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : MonoBehaviour
+[System.Serializable]
+public class Character
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int A;
+    public int S;
+    public int H;
+    public int C;
+    public int Level;
+    public string Name;
+    public int Coin;
+    public string Userid;
 
-    // Update is called once per frame
-    void Update()
+    public Character(int a, int s, int h, int c, int level, string name, int coin, string userid)
     {
-        
+        A = a;
+        S = s;
+        H = h;
+        C = c;
+        Level = level;
+        Name = name;
+        Coin = coin;
+        Userid = userid;
     }
+    
 }
