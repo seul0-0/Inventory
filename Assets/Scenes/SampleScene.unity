@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 99347503}
   - component: {fileID: 99347502}
   m_Layer: 5
-  m_Name: STxt
+  m_Name: ShieldTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 330631188}
   - component: {fileID: 330631187}
   m_Layer: 5
-  m_Name: ATxt
+  m_Name: AttackTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1148,7 +1148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &451676972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2424,7 +2424,7 @@ GameObject:
   - component: {fileID: 975782336}
   - component: {fileID: 975782335}
   m_Layer: 5
-  m_Name: CTxt
+  m_Name: CriticalTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2610,10 +2610,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b6d0689ce166344cb2870812e521a4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: {fileID: 1812254331}
-  S: {fileID: 629800971}
-  H: {fileID: 1765893234}
-  C: {fileID: 1818959445}
+  Attack: {fileID: 0}
+  Shield: {fileID: 0}
+  Health: {fileID: 0}
+  Critical: {fileID: 0}
   backBtn: {fileID: 1904024056}
 --- !u!1 &1045590525
 GameObject:
@@ -3666,7 +3666,7 @@ GameObject:
   - component: {fileID: 1331070140}
   - component: {fileID: 1331070139}
   m_Layer: 5
-  m_Name: HTxt
+  m_Name: HealthTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

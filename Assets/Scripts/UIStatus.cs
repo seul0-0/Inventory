@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class UIStatus : MonoBehaviour
 {
-    public Text A;
-    public Text S;
-    public Text H;
-    public Text C;
+    public Text Attack;
+    public Text Shield;
+    public Text Health;
+    public Text Critical;
     public Button backBtn;
 }
